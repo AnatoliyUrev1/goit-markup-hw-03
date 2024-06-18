@@ -321,11 +321,14 @@ color: #434455;
 }
 
 
-.reviews-image {
+.thumb img {
     Flex-wrap: wrap;
     display: flex;
     gap: 48px 24px;
-}
+    object-fit: cover;
+    width: 360px;
+    height: 420px;
+  }
 
 .reviews-item-text :hover {
 font-size: 16px;
