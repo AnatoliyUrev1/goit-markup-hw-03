@@ -232,7 +232,6 @@ font-weight: 500;
 font-size: 20px;
 letter-spacing: 0.02em;
 line-height: 1.11;
-text-align: center;
 text-transform: capitalize;
 color: #2e2f42;
 }
@@ -255,7 +254,6 @@ background-color: #FFFFFF;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: center;
 color: #434455;
 }
 
@@ -270,11 +268,11 @@ color: #434455;
 .reviews-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
-    margin-bottom: 72px; 
 }
 
 .team-box {
     padding: 32px 0;
+    text-align: center;
 }
 
 
@@ -316,19 +314,21 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.Product-box {
-    padding: 32px 0;
+.product-box {
+    padding: 32px 16px;
+    border-bottom: 1px solid #E7E9FC;
+border-left: 1px solid #E7E9FC;
+border-right: 1px solid #E7E9FC;
+text-align: left;
 }
 
 
-.thumb img {
-    Flex-wrap: wrap;
+.thumb  {
+    flex-wrap: wrap;
     display: flex;
     gap: 48px 24px;
-    object-fit: cover;
-    width: 360px;
-    height: 420px;
   }
+
 
 .reviews-item-text :hover {
 font-size: 16px;
@@ -337,9 +337,14 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.portfolio {
+    padding-bottom: 120px;
+}
+
 
 footer {
 background-color: #2e2f42;
+padding: 100px 0;
 }
 
 .gap footer  {
@@ -351,6 +356,15 @@ line-height: 21px;
 line-height: 1.5;
 letter-spacing: 0.03em;
 color: #f4f4fd;
+}
+
+.footer-logo {
+    margin-bottom: 16px;
+    display: inline-block;
+    font-family: Raleway, sans-serif;
+    color: #4D5AE5;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 
 .letter {
